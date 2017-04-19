@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import url("reset.css");
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('./font/museosans_700-webfont.eot');
+    src: url('./font/museosans_700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font/museosans_700-webfont.woff') format('woff'),
+         url('./font/museosans_700-webfont.ttf') format('truetype'),
+         url('./font/museosans_700-webfont.svg#MuseoSans700') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {background:url(./img/content_bg3.gif);font-family:Arial,Helvetica,sans-serif;font-size:20px;line-height:23px;color:#928C79;}
+#top {position:absolute;top:0;left:0;width:100%;background:url(./img/page_bg2.gif);height:510px;}
+#top span {position:absolute;bottom:0;left:0;width:100%;height:8px;background:url(./img/content_bg4.gif);}
+#container {position:relative;width:960px;margin:0 auto;z-index:1;height:570px;}
+.clear {clear:both;}
+
+#case {position:absolute;background:url(./img/404/case.png) no-repeat left top;width:259px;height:100px;top:452px;left:305px;z-index:4;}
+#dino {position:absolute;background:url(./img/404/dino.png) no-repeat left top;width:525px;height:524px;top:14px;left:366px;z-index:2;}
+#m1 {position:absolute;background:url(./img/404/montagna_back.png) no-repeat left top;width:322px;height:355px;top:164px;left:318px;z-index:1;}
+#m2 {position:absolute;background:url(./img/404/montagna-dx.png) no-repeat left top;width:229px;height:264px;top:271px;left:740px;z-index:3;}
+#m3 {position:absolute;background:url(./img/404/montagna-sx.png) no-repeat left top;width:256px;height:290px;top:255px;left:643px;z-index:5;}
+
+/*#logo {position:absolute;top:330px;left:-40px;background:url(./img/404/logo.png) no-repeat center top;width:300px;height:237px;text-indent:-999em;z-index:1;}*/
+#content {position:absolute;top:40px;left:0;width:260px;z-index:2;}
+#content #title {font-family:'Bree serif',serif;font-size:61px;line-height:61px;font-weight:normal;color:#646159;margin-bottom:15px;}
+#content #subtitle {font-family:'MuseoSans',Helvetica,sans-serif;color:#989280;font-size:22px;line-height:25px;margin-bottom:10px;font-weight:normal;text-transform:uppercase;margin-bottom:30px;}
+#content #subtitle strong {font-weight:normal;font-size:40px;line-height:42px;display:block;}
+#content p {margin-bottom:20px;}
+
+/* BUTTON */
+#button {display:inline-block;background:url(./img/button_big_bg_red.gif);border:1px solid #ca1700;box-shadow:inset 0 1px 0 rgba(255,255,255,.3);font-size:14px;height:28px;line-height:28px;color:#fff;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;padding:0 20px;font-family:MuseoSans,Helvetica,sans-serif;text-decoration:none;cursor:pointer;-webkit-transition: all .2s ease;-moz-transition: all .2s ease;-o-transition: all .2s ease;transition: all .2s ease;text-shadow:0 -1px rgba(0,0,0,.3);text-align:center;}
+#button span {display:inline-block;height:27px;background:url(./img/404/button_icon.png) no-repeat left center;padding-left:20px;padding-right:5px;}
+#button:hover {box-shadow:inset 1px 1px 2px rgba(0,0,0,.2);background-position:-4px -4px !important;}
+
+#button span {}
